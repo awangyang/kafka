@@ -1,0 +1,5 @@
+spring:
+  kafka:
+    consumer:
+      group-id: defaultGroup
+    bootstrap-servers: 192.168.25.16:9092

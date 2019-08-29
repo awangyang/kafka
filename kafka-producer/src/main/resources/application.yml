@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrapServers: 192.168.25.16:9092
+    producer:
+      batchSize: 10
+      compressionType: snappy
+      acks: all
